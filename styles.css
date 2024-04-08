@@ -1,0 +1,61 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 9px 4%;
+    background-color: #2D87DA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome-logotipo{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button{
+    padding: 7px 25px;
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+}
+
+/* ESTILO DO MEIO DA PÁGINA */
+main{
+    padding: 50px;
+    background-color: rgb(230, 243, 255);
+}
+
+.botoes-topo-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selecoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
